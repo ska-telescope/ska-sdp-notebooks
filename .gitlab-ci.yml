@@ -8,11 +8,12 @@ stages:
   - build
   - publish
   - scan
+  - pages
 
 include:
   # OCI image jobs
-  - project: 'ska-telescope/templates-repository'
-    file: 'gitlab-ci/includes/oci-image.gitlab-ci.yml'
+#  - project: 'ska-telescope/templates-repository'
+#    file: 'gitlab-ci/includes/oci-image.gitlab-ci.yml'
 
   # Documentation jobs
   - project: 'ska-telescope/templates-repository'
