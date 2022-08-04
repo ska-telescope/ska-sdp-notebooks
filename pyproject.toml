@@ -11,7 +11,7 @@ name = "ska"
 url = "https://artefact.skao.int/repository/pypi-internal/simple"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.7"
 notebook = "^6.4.12"
 ska-sdp-config = "^0.4.0"
 jupyterlab = "^3.4.4"
