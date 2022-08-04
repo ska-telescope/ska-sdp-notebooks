@@ -19,8 +19,8 @@ and control SDP from there. *ska-sdp* is directly available from the
 `SDP Console pod <https://developer.skao.int/projects/ska-sdp-integration/en/latest/design/components.html>`_ as well.
 
 
-PyTang notebook
----------------
+PyTango notebook
+----------------
 
 The source notebook is called `ska-sdp-tango-tutorial.ipynb <https://gitlab.com/ska-telescope/sdp/ska-sdp-notebooks/-/blob/main/src/ska-sdp-tango-tutorial.ipynb>`_.
 It takes you through the steps of how to connect to an SDP subarray device,

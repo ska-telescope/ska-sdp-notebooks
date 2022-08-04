@@ -11,5 +11,5 @@ the Science Data Processor (SDP).
 .. toctree::
   :maxdepth: 2
 
-  ska_binderhub
-  sdp_notebooks
+  ska-binderhub
+  sdp-notebooks
