@@ -17,7 +17,13 @@ You will have to sign in with your SKA credentials
 .. image:: https://developer.skao.int/en/latest/_images/binderhub-home.png
     :alt: BunderHub starting page
 
-In the home page, under "GitHub repository name or URL", change the drop
+You can also go to the BiderHub pages of the SDP Notebooks repository,
+directly by following:
+
+    https://sdhp.stfc.skao.int/binderhub/v2/gl/ska-telescope%2Fsdp%2Fska-sdp-notebooks/HEAD)
+
+If you, followed the default SDH&P BinderHub page, then
+under "GitHub repository name or URL", change the drop
 down box to "GitLab" and set the repository to
 https://gitlab.com/ska-telescope/sdp/ska-sdp-notebooks
 

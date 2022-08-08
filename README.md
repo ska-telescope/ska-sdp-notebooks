@@ -18,19 +18,3 @@ repositories or ask for support on Slack in the #team-system-support channel.
 
 To keep the Makefiles up to date in this repository, follow the instructions
 at: https://gitlab.com/ska-telescope/sdi/ska-cicd-makefile#keeping-up-to-date
-
-## Creating a new release
-
-When you are ready to make a new release:
-
-  - Check out the master branch
-  - Create an issue in the [Release Management](https://jira.skatelescope.org/projects/REL/summary) project
-  - Bump the `.release` file version with
-    - `make bump-patch-release`,
-    - `make bump-minor-release`, or
-    - `make bump-major-release`
-  - Manually update the documentation version in `docs/src/conf.py`
-  - Create the git tag with `make git-create-tag`
-  - Push the changes using `make git-push-tag`
-
-
