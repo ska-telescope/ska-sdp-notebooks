@@ -1,0 +1,16 @@
+**/build/
+**/.idea/
+**/.vscode/
+**/.bash_history
+**/.cache
+**/.local
+**/__pycache__
+.coverage
+**/*.pyc
+**/junit.xml
+**/htmlcov/
+**/dist/
+**/.eggs
+
+# Python virtualenv folder
+**/venv/
