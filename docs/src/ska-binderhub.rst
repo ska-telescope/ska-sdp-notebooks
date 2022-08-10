@@ -24,7 +24,7 @@ https://gitlab.com/ska-telescope/sdp/ska-sdp-notebooks
 If you want to share the built interface with others, make sure
 you copy the URL under "Copy the URL below and share your Binder with others".
 
-    https://sdhp.stfc.skao.int/binderhub/v2/gl/ska-telescope%2Fsdp%2Fska-sdp-notebooks/HEAD)
+    https://sdhp.stfc.skao.int/binderhub/v2/gl/ska-telescope%2Fsdp%2Fska-sdp-notebooks/HEAD
 
 Click Launch and wait for it to build.
 
