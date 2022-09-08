@@ -2,7 +2,7 @@ FROM artefact.skao.int/ska-tango-images-pytango-builder:9.3.28 AS buildenv
 
 ENV POETRY_HOME=/opt/poetry
 
-RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y --no-install-recommends curl git && rm -rf /var/lib/apt/lists/*
 
 RUN curl -sSL https://install.python-poetry.org | python -
 
