@@ -1,24 +1,9 @@
-FROM artefact.skao.int/ska-tango-images-pytango-builder:9.3.28 AS buildenv
+FROM artefact.skao.int/ska-tango-images-pytango-builder:9.3.32 as buildenv
+FROM artefact.skao.int/ska-tango-images-pytango-runtime:9.3.19
 
-ENV POETRY_HOME=/opt/poetry
+USER root
 
-RUN apt-get update && apt-get install -y --no-install-recommends curl && rm -rf /var/lib/apt/lists/*
+RUN poetry config virtualenvs.create false
+RUN poetry install
 
-RUN curl -sSL https://install.python-poetry.org | python -
-
-COPY . ./
-RUN ${POETRY_HOME}/bin/poetry export --without-hashes -o requirements.txt
-
-FROM artefact.skao.int/ska-tango-images-pytango-runtime:9.3.16
-
-# Remove files copied by ONBUILD command
-RUN rm -r *
-
-WORKDIR /install
-
-COPY --from=buildenv /app/requirements.txt ./
-RUN pip install --no-cache-dir --no-compile -r requirements.txt
-
-COPY src/ /app
-WORKDIR /app
-
+USER tango
