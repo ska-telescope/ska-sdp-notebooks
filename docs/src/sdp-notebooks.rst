@@ -26,3 +26,11 @@ The source notebook is called `ska-sdp-tango-tutorial.ipynb <https://gitlab.com/
 It takes you through the steps of how to connect to an SDP subarray device,
 how to configure it, run a scan, etc. If you are familiar with using SDP
 through the itango console, the steps in this notebook will not be new for you.
+
+ska-sdp vis-receive notebook
+----------------------------
+
+The source notebook is called `ska-sdp-emulated-scan-example.ipynb <https://gitlab.com/ska-telescope/sdp/ska-sdp-notebooks/-/blob/main/src/ska-sdp-tango-tutorial.ipynb>`_.
+It will take you through the steps of how to deploy a vis-receive workflow connected
+to an SDP subarray device, run a processor, and emulate the sending of data using the
+CBF Emulator.
